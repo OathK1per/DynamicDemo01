@@ -3,8 +3,8 @@ package Dynamic04;
 @Club(num = 1, type = {"soccer", "basketball", "football"})
 public class SportClub {
 
-    private String city;
-    private int standiumSeat;
+    private String city = "San Diego";
+    private int standiumSeat = 10;
 
     public SportClub() {
     }
